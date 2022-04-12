@@ -108,7 +108,6 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--pimary-text-color);
 }
 .section-title {
@@ -117,7 +116,6 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 
@@ -133,21 +131,18 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 .team-title {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 .team-text {
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
+
   color: var(--pimary-text-color);
 }
 
@@ -161,17 +156,13 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  letter-spacing: 0.03em;
-
   color: var(--primary-white-color);
 }
 .address-link.link {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .address-list .link:hover,
@@ -179,12 +170,10 @@ body {
   color: var(--accent-color);
 }
 .map-link {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
 
@@ -198,7 +187,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  letter-spacing: 0.03em;
   color: var(--title-text-color);
   background: #f5f4fa;
   border-radius: 4px;
@@ -221,16 +209,11 @@ body {
   box-sizing: border-box;
 }
 .item-text {
-  font-family: "Roboto";
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
   color: var(--pimary-text-color);
 }
 .item-titel {
-  font-family: "Roboto";
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
