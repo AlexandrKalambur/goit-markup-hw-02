@@ -14,8 +14,9 @@
   visibility: hidden;
 }
 body {
-  font-family: "Roboto" sans-serif;
+  font-family: Roboto, sans-serif;
   color: #212121;
+  letter-spacing: 0.03em;
 }
 
 /*------Шапка--------*/
@@ -29,7 +30,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--title-text-color);
 }
@@ -99,7 +99,6 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 
   color: var(--title-text-color);
@@ -191,6 +190,9 @@ body {
 
 /*-------Портфолио-Фильтр------*/
 
+.portfolio {
+  background: #e5e5e5;
+}
 .btn {
   font-family: "Roboto";
   font-weight: 500;
