@@ -5,6 +5,8 @@
   --primary-white-color: #ffffff;
 }
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 .link {
@@ -22,35 +24,54 @@
   clip-path: inset(50%);
   margin: -1px;
 }
+html {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Roboto, sans-serif;
-  color: #212121;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: var(--title-text-color);
   letter-spacing: 0.03em;
 }
 
 /*------Шапка--------*/
 
 .header {
+  display: flex;
+  margin: 0;
+  width: 1200px;
+  padding-left: 215px;
+  padding-right: 215px;
+
   background-color: var(--primary-white-color);
   color: var(--pimary-text-color);
 }
 .header-logo {
+  display: inline-block;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
   color: var(--title-text-color);
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin: 0;
 }
 .logo-web {
   color: var(--accent-color);
 }
+.header-item {
+  display: inline-block;
+  margin: 0;
+}
 .header-list .link {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  margin: 0;
 
   color: var(--title-text-color);
 }
@@ -62,16 +83,12 @@ body {
   color: var(--accent-color);
 }
 .header-link.link {
-  color: #757575;
+  color: var(--pimary-text-color);
 }
 
 /*-------Основной-Hero------*/
 
-.hero {
-  background: #2f303a;
-}
 .hero .title {
-  font-family: "Roboto";
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -100,9 +117,6 @@ body {
 
 /*-------Основной-Чем-Мы-Занимаемся------*/
 
-.section {
-  background: #e5e5e5;
-}
 .section-list .title {
   font-weight: 700;
   font-size: 14px;
@@ -161,15 +175,15 @@ body {
   line-height: 31px;
   color: var(--primary-white-color);
 }
-.address-link.link {
+.address-link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
-.address-list .link:hover,
-.address-list .link:focus {
+.address-list :hover,
+.address-list :focus {
   color: var(--accent-color);
 }
 .map-link {
@@ -182,9 +196,6 @@ body {
 
 /*-------Портфолио-Фильтр------*/
 
-.portfolio {
-  background: #e5e5e5;
-}
 .btn {
   font-family: "Roboto";
   font-weight: 500;
@@ -206,11 +217,6 @@ body {
 
 /*-------Портфолио-Проекты------*/
 
-.item-list {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
 .item-text {
   font-size: 16px;
   line-height: 1.88;
